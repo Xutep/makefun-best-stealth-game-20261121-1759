@@ -1,0 +1,23 @@
+/* Moonlit Vault — page chrome around the game canvas. */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0b0d1a;
+  color: #e8e4d8;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+main { padding: 16px; text-align: center; }
+canvas {
+  display: block;
+  width: 960px;
+  height: 600px;
+  max-width: 96vw;
+  border: 2px solid #c9a86a;
+  border-radius: 6px;
+  background: #14172a;
+  cursor: crosshair;
+}
+#error { color: #ff8080; min-height: 1em; margin: 8px 0 0; }
+.foot { color: #8a8fa8; font-size: 13px; max-width: 960px; margin: 10px auto 0; }
